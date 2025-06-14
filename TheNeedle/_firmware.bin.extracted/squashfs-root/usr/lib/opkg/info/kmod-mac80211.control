@@ -1,0 +1,9 @@
+Package: kmod-mac80211
+Version: 4.4.50+2016-10-08-1
+Depends: kernel (=4.4.50-1-57f2157e20532275b9b2b3bff2e2209e), kmod-cfg80211, hostapd-common
+Source: package/kernel/mac80211
+Section: kernel
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: armeb_xscale
+Installed-Size: 214610
+Description:  Generic IEEE 802.11 Networking Stack (mac80211)

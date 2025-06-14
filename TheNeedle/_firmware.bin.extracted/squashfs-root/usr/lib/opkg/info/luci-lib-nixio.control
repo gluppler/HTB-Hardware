@@ -1,0 +1,8 @@
+Package: luci-lib-nixio
+Version: git-17.051.53299-a100738-1
+Depends: libc, liblua
+Source: feeds/luci/libs/luci-lib-nixio
+Section: luci
+Architecture: armeb_xscale
+Installed-Size: 30305
+Description:  NIXIO POSIX library

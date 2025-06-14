@@ -1,0 +1,10 @@
+Package: procd
+Version: 2017-02-08-cdc3dab3-1
+Depends: libc, ubusd, ubus, libjson-script, ubox, libubox, libubus
+Source: package/system/procd
+License: GPL-2.0
+Section: base
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: armeb_xscale
+Installed-Size: 35896
+Description:  OpenWrt system process manager

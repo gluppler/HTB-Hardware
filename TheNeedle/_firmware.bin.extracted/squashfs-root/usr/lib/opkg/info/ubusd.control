@@ -1,0 +1,10 @@
+Package: ubusd
+Version: 2017-01-22-6f4e11e1-1
+Depends: libc, libubox, libblobmsg-json
+Source: package/system/ubus
+License: LGPL-2.1
+Section: base
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: armeb_xscale
+Installed-Size: 9748
+Description:  OpenWrt RPC daemon

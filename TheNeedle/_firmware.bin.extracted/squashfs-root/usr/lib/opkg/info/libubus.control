@@ -1,0 +1,10 @@
+Package: libubus
+Version: 2017-01-22-6f4e11e1-1
+Depends: libc, libubox
+Source: package/system/ubus
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: armeb_xscale
+Installed-Size: 9272
+Description:  OpenWrt RPC client library

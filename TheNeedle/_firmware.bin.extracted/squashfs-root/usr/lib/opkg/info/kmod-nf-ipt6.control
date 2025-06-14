@@ -1,0 +1,9 @@
+Package: kmod-nf-ipt6
+Version: 4.4.50-1
+Depends: kernel (=4.4.50-1-57f2157e20532275b9b2b3bff2e2209e), kmod-nf-ipt, kmod-nf-conntrack6
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Architecture: armeb_xscale
+Installed-Size: 8569
+Description:  Ip6tables core

@@ -1,0 +1,10 @@
+Package: uclient-fetch
+Version: 2016-12-09-52d955fd-1
+Depends: libc, libuclient
+Source: package/libs/uclient
+License: ISC
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: armeb_xscale
+Installed-Size: 6690
+Description:  Tiny wget replacement using libuclient

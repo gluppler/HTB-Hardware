@@ -1,0 +1,8 @@
+Package: luci-lib-ip
+Version: git-17.051.53299-a100738-1
+Depends: libc, liblua, libnl-tiny
+Source: feeds/luci/libs/luci-lib-ip
+Section: luci
+Architecture: armeb_xscale
+Installed-Size: 9235
+Description:  Lua library for IP calculation and routing information

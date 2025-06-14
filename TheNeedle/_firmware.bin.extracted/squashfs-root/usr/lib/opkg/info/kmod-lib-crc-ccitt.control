@@ -1,0 +1,9 @@
+Package: kmod-lib-crc-ccitt
+Version: 4.4.50-1
+Depends: kernel (=4.4.50-1-57f2157e20532275b9b2b3bff2e2209e)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Architecture: armeb_xscale
+Installed-Size: 1361
+Description:  Kernel module for CRC-CCITT support

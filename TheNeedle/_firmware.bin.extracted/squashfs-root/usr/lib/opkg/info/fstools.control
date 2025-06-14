@@ -1,0 +1,10 @@
+Package: fstools
+Version: 2016-12-04-84b530a7-1
+Depends: libc, ubox
+Source: package/system/fstools
+License: GPL-2.0
+Section: base
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: armeb_xscale
+Installed-Size: 15592
+Description:  OpenWrt filesystem tools

@@ -1,0 +1,10 @@
+Package: dropbear
+Version: 2016.74-2
+Depends: libc
+Source: package/network/services/dropbear
+License: MIT
+LicenseFiles: LICENSE libtomcrypt/LICENSE libtommath/LICENSE
+Section: net
+Architecture: armeb_xscale
+Installed-Size: 82310
+Description:  A small SSH2 server/client designed for small memory environments.

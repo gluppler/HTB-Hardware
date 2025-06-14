@@ -1,0 +1,8 @@
+Package: ixp4xx-microcode
+Version: 2.4-2
+Depends: libc
+Source: package/firmware/ixp4xx-microcode
+Section: net
+Architecture: armeb_xscale
+Installed-Size: 21438
+Description:  This package contains the microcode needed to use the network engines in IXP4xx CPUs

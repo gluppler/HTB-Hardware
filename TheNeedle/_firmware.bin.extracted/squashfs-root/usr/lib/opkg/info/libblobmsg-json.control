@@ -1,0 +1,10 @@
+Package: libblobmsg-json
+Version: 2016-11-29-77a62937-1
+Depends: libc, libjson-c, libubox
+Source: package/libs/libubox
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: armeb_xscale
+Installed-Size: 3178
+Description:  blobmsg <-> json conversion library

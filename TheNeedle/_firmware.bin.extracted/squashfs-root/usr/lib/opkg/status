@@ -1,0 +1,679 @@
+Package: libuci-lua
+Version: 2016-07-04-e1bf4356-1
+Depends: libc, libuci, liblua
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: iwinfo
+Version: 2016-09-21-fd9e17be-1
+Depends: libc, libiwinfo
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: libc
+Version: 1.1.16-1
+Depends: libgcc
+Status: install hold installed
+Essential: yes
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: opkg
+Version: 2011-04-08-9c97d5ec-17
+Depends: libc, uclient-fetch, libpthread
+Status: install user installed
+Architecture: armeb_xscale
+Conffiles:
+ /etc/opkg.conf b73c0a02cb7bc300b2e6c7c29e8e6d38bdb6ded314319e89be3b352f59fff5ab
+ /etc/opkg/customfeeds.conf 61d1f3aa62fe977614ed0c2f0ad3b2ee2f7b451bfb34812071d86d31a4d43d4a
+Installed-Time: 1487610824
+
+Package: libpthread
+Version: 1.1.16-1
+Depends: libgcc
+Status: install hold installed
+Essential: yes
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: ubus
+Version: 2017-01-22-6f4e11e1-1
+Depends: libc, libubus, libblobmsg-json, ubusd
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: iw
+Version: 4.9-1
+Depends: libc, libnl-tiny
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: rpcd
+Version: 2016-12-03-0577cfc1-1
+Depends: libc, libubus, libubox, libuci, libblobmsg-json
+Status: install user installed
+Architecture: armeb_xscale
+Conffiles:
+ /etc/config/rpcd 9f58e09bb250fe6cee61c873ff2c1a19cb800d12cef0773bd5dfc47e0d01c90b
+Installed-Time: 1487610824
+
+Package: busybox
+Version: 1.25.1-2
+Depends: libc
+Status: install user installed
+Essential: yes
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: odhcpd
+Version: 2017-02-09-8df4253b-1
+Depends: libc, libubox, libuci, libubus, libnl-tiny
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: luci-lib-ip
+Version: git-17.051.53299-a100738-1
+Depends: libc, liblua, libnl-tiny
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: libubus-lua
+Version: 2017-01-22-6f4e11e1-1
+Depends: libc, libubus, liblua
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: libiwinfo-lua
+Version: 2016-09-21-fd9e17be-1
+Depends: libc, libiwinfo, liblua
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: libiwinfo
+Version: 2016-09-21-fd9e17be-1
+Depends: libc, libnl-tiny, libuci
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: kmod-lib-crc-ccitt
+Version: 4.4.50-1
+Depends: kernel (= 4.4.50-1-57f2157e20532275b9b2b3bff2e2209e)
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: luci-theme-bootstrap
+Version: git-17.051.53299-a100738-1
+Depends: libc
+Status: install user installed
+Architecture: all
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: kmod-pppoe
+Version: 4.4.50-1
+Depends: kernel (= 4.4.50-1-57f2157e20532275b9b2b3bff2e2209e), kmod-ppp, kmod-pppox
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: kmod-pppox
+Version: 4.4.50-1
+Depends: kernel (= 4.4.50-1-57f2157e20532275b9b2b3bff2e2209e), kmod-ppp
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: kmod-ipt-conntrack
+Version: 4.4.50-1
+Depends: kernel (= 4.4.50-1-57f2157e20532275b9b2b3bff2e2209e), kmod-ipt-core, kmod-nf-conntrack
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: base-files
+Version: 172-r3205-59508e3
+Depends: libc, netifd, procd, jsonfilter, usign, lede-keyring, fstools, fwtool
+Status: install user installed
+Architecture: armeb_xscale
+Conffiles:
+ /etc/hosts c1a978d90673437b35fa9494e0a54294062c152bb653d490b718052ab88447fd
+ /etc/inittab 8b395f7d827753e1e92d4a1c369d9fe16caa23bf742b3f78e4599c4dd9b1b6e3
+ /etc/group 35b63adf31591ac37358e918a5e8d4f9c1d541c681a07861cdf1119106c0dd2e
+ /etc/passwd 6a451aa33393f47ade89b8bce4d9711818c2630394c3967265ffed276bb25a55
+ /etc/shadow ccbbfeee2dd560403fea13f7f431ebd21d9bb4b3d41e48e892013fa451f91cc4
+ /etc/profile d33dd2449b260f767f7239a130402fca895ed51eafc2a2c94e6b0f09a679516a
+ /etc/protocols 7d551355d5540b07b9d86e623cbbc4abecbb94d2a662b3afcc917940eb0e3d52
+ /etc/services 47f3393d265c8cefc2d1ec72f8b0b02cde883ea45266e35f62ff4715208db6ed
+ /etc/shells 8b35ce73c18161a7d7ed16fa244410993bd031515260e3e0c11749047df48d0a
+ /etc/sysctl.conf 427dedc19aa6bfb2e9d5c59d9aa0af8445eeaf484cc3df29063d0ba68726e967
+ /etc/rc.local 515018aa94eb4937dade12dc0d69890b352af35a5ab5fb8203f9ed10990ac06f
+ /etc/sysupgrade.conf 9e87b05fe2f12c84d1c465b396322748479f64bc40e5bab061887f0bd95020a6
+ /etc/sysctl.d/local.conf 43cedc0217825c00cb1a3d49e7be43c06f70257593fb4d6d393f645e04d512de
+ /etc/sysctl.d/local.conf 43cedc0217825c00cb1a3d49e7be43c06f70257593fb4d6d393f645e04d512de
+ /etc/iproute2/rt_tables f771e2b81741f70e3faf658dc504f0dc048672fc8caaadea15e46c35da3de8f8
+ /etc/iproute2/rt_protos a0712b1771c8d5f3e0dcf9a6314880e71aa3498ea1ae873535bdfcf70d814061
+Installed-Time: 1487610824
+
+Package: kmod-nf-nat
+Version: 4.4.50-1
+Depends: kernel (= 4.4.50-1-57f2157e20532275b9b2b3bff2e2209e), kmod-nf-conntrack, kmod-nf-ipt
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: netifd
+Version: 2017-01-25-650758b1-1
+Depends: libc, libuci, libnl-tiny, libubus, ubus, ubusd, jshn, libubox
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: ixp4xx-microcode
+Version: 2.4-2
+Depends: libc
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: dnsmasq
+Version: 2.76-6
+Depends: libc
+Status: install user installed
+Architecture: armeb_xscale
+Conffiles:
+ /etc/config/dhcp f81fe9bd228dede2165be71e5c9dcf76cc298bc8b6c877974a172a66fac7cf45
+ /etc/dnsmasq.conf 1e6ab19c1ae5e70d609ac7b6246541d52042e4dee1892f825266507ef52d7dfd
+Installed-Time: 1487610824
+
+Package: procd
+Version: 2017-02-08-cdc3dab3-1
+Depends: libc, ubusd, ubus, libjson-script, ubox, libubox, libubus
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: ubusd
+Version: 2017-01-22-6f4e11e1-1
+Depends: libc, libubox, libblobmsg-json
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: kmod-ath5k
+Version: 4.4.50+2016-10-08-1
+Depends: kernel (= 4.4.50-1-57f2157e20532275b9b2b3bff2e2209e), kmod-ath
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: firewall
+Version: 2017-01-13-37cb4cb4-1
+Depends: libc, libubox, libubus, libuci, libip4tc, libip6tc, libxtables, kmod-ipt-core, kmod-ipt-conntrack, kmod-ipt-nat
+Status: install user installed
+Architecture: armeb_xscale
+Conffiles:
+ /etc/config/firewall 390db1708e76edac2345cb598fd222a855b14557c4c31fe79df387c0ca6b4690
+ /etc/firewall.user bd68324966481011f5e36570258ad97dd422655c16f3119d48325ed8459de510
+Installed-Time: 1487610824
+
+Package: luci-app-firewall
+Version: git-17.051.53299-a100738-1
+Depends: libc, firewall
+Status: install user installed
+Architecture: all
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: kmod-nf-ipt
+Version: 4.4.50-1
+Depends: kernel (= 4.4.50-1-57f2157e20532275b9b2b3bff2e2209e)
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: libuci
+Version: 2016-07-04-e1bf4356-1
+Depends: libc, libubox
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: liblua
+Version: 5.1.5-1
+Depends: libc
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: libip4tc
+Version: 1.4.21-2
+Depends: libc, libxtables
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: kmod-ip6tables
+Version: 4.4.50-1
+Depends: kernel (= 4.4.50-1-57f2157e20532275b9b2b3bff2e2209e), kmod-nf-ipt6, kmod-ipt-core, kmod-ipt-conntrack
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: odhcp6c
+Version: 2017-01-30-c13b6a05-1
+Depends: libc, libubox
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: fstools
+Version: 2016-12-04-84b530a7-1
+Depends: libc, ubox
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: uclient-fetch
+Version: 2016-12-09-52d955fd-1
+Depends: libc, libuclient
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: libuclient
+Version: 2016-12-09-52d955fd-1
+Depends: libc, libubox
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: uci
+Version: 2016-07-04-e1bf4356-1
+Depends: libc, libuci
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: lua
+Version: 5.1.5-1
+Depends: libc, liblua
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: wpad-mini
+Version: 2016-12-19-ad02e79d-2
+Depends: libc, libnl-tiny, hostapd-common, libubus
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: dropbear
+Version: 2016.74-2
+Depends: libc
+Status: install user installed
+Architecture: armeb_xscale
+Conffiles:
+ /etc/dropbear/dropbear_rsa_host_key e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+ /etc/config/dropbear 0198dbc97b5a9aac76a5c6233684571ccdcc91fcb735e91c36d2b06a98158589
+Installed-Time: 1487610824
+
+Package: mtd
+Version: 21
+Depends: libc, libubox
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: fconfig
+Version: 20080329-1
+Depends: libc
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: libjson-c
+Version: 0.12.1-1
+Depends: libc
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: libgcc
+Version: 5.4.0-1
+Status: install hold installed
+Essential: yes
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: libip6tc
+Version: 1.4.21-2
+Depends: libc, libxtables
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: luci-proto-ppp
+Version: git-17.051.53299-a100738-1
+Depends: libc
+Status: install user installed
+Architecture: all
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: ppp
+Version: 2.4.7-10
+Depends: libc, kmod-ppp
+Status: install user installed
+Architecture: armeb_xscale
+Conffiles:
+ /etc/ppp/chap-secrets 6981fa176a79f8c12be5826c421b16253a616747018ba7e76752a9d36d1d51d4
+ /etc/ppp/filter 579583b318e0cff706ffc134620b42d3fbce8fc31aeb0ad7eea1cc859868e902
+ /etc/ppp/options a0509db666fc831a3f9332ca6e911ba9a32e7f1ce13733e539a719f0413794b9
+Installed-Time: 1487610824
+
+Package: luci-mod-admin-full
+Version: git-17.051.53299-a100738-1
+Depends: libc, luci-base
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: libubox
+Version: 2016-11-29-77a62937-1
+Depends: libc
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: luci-base
+Version: git-17.051.53299-a100738-1
+Depends: libc, lua, libuci-lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc
+Status: install user installed
+Architecture: armeb_xscale
+Conffiles:
+ /etc/luci-uploads/.placeholder e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+ /etc/config/luci 7e04b593f6a54853b284c1dadfa0df9a90d16661977382978a56443152348329
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: logd
+Version: 2017-01-15-5649c028-1
+Depends: libc, libubox, libubus, libblobmsg-json
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: kmod-mac80211
+Version: 4.4.50+2016-10-08-1
+Depends: kernel (= 4.4.50-1-57f2157e20532275b9b2b3bff2e2209e), kmod-cfg80211, hostapd-common
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: libjson-script
+Version: 2016-11-29-77a62937-1
+Depends: libc, libubox
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: luci-proto-ipv6
+Version: git-17.051.53299-a100738-1
+Depends: libc
+Status: install user installed
+Architecture: all
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: libblobmsg-json
+Version: 2016-11-29-77a62937-1
+Depends: libc, libjson-c, libubox
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: iptables
+Version: 1.4.21-2
+Depends: libc, kmod-ipt-core, libip4tc, libip6tc, libxtables
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: jshn
+Version: 2016-11-29-77a62937-1
+Depends: libc, libjson-c, libubox, libblobmsg-json
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: kmod-ipt-core
+Version: 4.4.50-1
+Depends: kernel (= 4.4.50-1-57f2157e20532275b9b2b3bff2e2209e), kmod-nf-ipt
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: kmod-ppp
+Version: 4.4.50-1
+Depends: kernel (= 4.4.50-1-57f2157e20532275b9b2b3bff2e2209e), kmod-lib-crc-ccitt, kmod-slhc
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: libubus
+Version: 2017-01-22-6f4e11e1-1
+Depends: libc, libubox
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: uhttpd
+Version: 2016-10-25-1628fa4b-1
+Depends: libc, libubox, libblobmsg-json, libjson-script
+Status: install user installed
+Architecture: armeb_xscale
+Conffiles:
+ /etc/config/uhttpd 805ff9fa319c9ed3ed57a86d786484fbd952149cbb2f14c393ae2abceefc8ab7
+Installed-Time: 1487610824
+
+Package: kmod-nf-conntrack
+Version: 4.4.50-1
+Depends: kernel (= 4.4.50-1-57f2157e20532275b9b2b3bff2e2209e)
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: usign
+Version: 2015-07-04-ef641914-1
+Depends: libc, libubox
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: libxtables
+Version: 1.4.21-2
+Depends: libc
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: ip6tables
+Version: 1.4.21-2
+Depends: libc, kmod-ip6tables, iptables
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: kmod-nf-ipt6
+Version: 4.4.50-1
+Depends: kernel (= 4.4.50-1-57f2157e20532275b9b2b3bff2e2209e), kmod-nf-ipt, kmod-nf-conntrack6
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: luci-lib-nixio
+Version: git-17.051.53299-a100738-1
+Depends: libc, liblua
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: luci-lib-jsonc
+Version: git-17.051.53299-a100738-1
+Depends: libc, liblua, libjson-c
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: luci
+Version: git-17.051.53299-a100738-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, luci-proto-ipv6
+Status: install user installed
+Architecture: all
+Installed-Time: 1487610824
+
+Package: kmod-nf-conntrack6
+Version: 4.4.50-1
+Depends: kernel (= 4.4.50-1-57f2157e20532275b9b2b3bff2e2209e), kmod-nf-conntrack
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: kmod-ath
+Version: 4.4.50+2016-10-08-1
+Depends: kernel (= 4.4.50-1-57f2157e20532275b9b2b3bff2e2209e), kmod-mac80211
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: ubox
+Version: 2017-01-15-5649c028-1
+Depends: libc, libubox, ubusd, ubus, libubus, libuci
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: lede-keyring
+Version: 2017-01-20-a50b7529-1
+Depends: libc
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: kernel
+Version: 4.4.50-1-57f2157e20532275b9b2b3bff2e2209e
+Depends: libc
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: libnl-tiny
+Version: 0.1-5
+Depends: libc
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: uhttpd-mod-ubus
+Version: 2016-10-25-1628fa4b-1
+Depends: libc, uhttpd, libubus, libblobmsg-json
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: fwtool
+Version: 1
+Depends: libc
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: jsonfilter
+Version: 2016-07-02-dea067ad-1
+Depends: libc, libubox, libjson-c
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: hostapd-common
+Version: 2016-12-19-ad02e79d-2
+Depends: libc
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: kmod-slhc
+Version: 4.4.50-1
+Depends: kernel (= 4.4.50-1-57f2157e20532275b9b2b3bff2e2209e), kmod-lib-crc-ccitt
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: kmod-cfg80211
+Version: 4.4.50+2016-10-08-1
+Depends: kernel (= 4.4.50-1-57f2157e20532275b9b2b3bff2e2209e), iw
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+Auto-Installed: yes
+
+Package: ppp-mod-pppoe
+Version: 2.4.7-10
+Depends: libc, kmod-pppoe
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+
+Package: kmod-ipt-nat
+Version: 4.4.50-1
+Depends: kernel (= 4.4.50-1-57f2157e20532275b9b2b3bff2e2209e), kmod-ipt-core, kmod-nf-nat
+Status: install user installed
+Architecture: armeb_xscale
+Installed-Time: 1487610824
+

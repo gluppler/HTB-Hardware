@@ -1,0 +1,9 @@
+Package: base-files
+Version: 172-r3205-59508e3
+Depends: libc, netifd, procd, jsonfilter, usign, lede-keyring, fstools, fwtool
+Source: package/base-files
+License: GPL-2.0
+Section: base
+Architecture: armeb_xscale
+Installed-Size: 36510
+Description:  This package contains a base filesystem and system scripts for OpenWrt.
